@@ -15,3 +15,15 @@ function pingPong(userInput){
   return result;
 
 }
+//user-interface
+$(document).ready(function() {
+  $("form#pingPong").submit(function(event) {
+    $("#userOutput").empty();
+    var userInput = parseInt($("input#number").val());
+    var result = pingPong(userInput);
+    result.forEach(function(output) {
+    $("#userOutput").append("<li>" + output + "</li>");
+    event.preventDefault();
+  });
+});
+});
