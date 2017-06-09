@@ -35,7 +35,28 @@
 
           </div>
               <!--End side bar on left-->
+              <!--Game the search bar column-->
+              <div class="col-md-4">
+                <!-- add a list-->
+                <form id="pingPong">
+                  <h1  id="starter">Let's play!</h1>
+                  <h2 id="starter">Rules!</h2>
+                  <p id="paragraphs">PingPong will count your number with the following exceptions</p>
+                  <ol id="paragraphs">
+                    <li>Numbers divisible by 3 becomes "ping"</li>
+                    <li>Numbers divisible by 5 becomes "pong"</li>
+                    <li>Numbers divisible by 15 becomes "pingpong"</li>
+                  </ol>
 
+                  <!--form starts here-->
+                  <div class="form-group">
+                    <label for="number" id="starter">Enter your number please:</label>
+                    <input id="number" class="formcontrol" required=" " type="text "></input>
+                    <button class="btn">Ping-Pong!</button>
+                  </div>
+                  <div id="userOutput"></div>
+                </form>
+              </div>
             </div>
           </div>
         </div>
