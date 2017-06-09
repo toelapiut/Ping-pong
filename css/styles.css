@@ -1,0 +1,20 @@
+#header{
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 100px;
+	padding-left: 200px;
+	text-align: center;
+	border-bottom: 10px solid black;
+	opacity: 0.5px
+	padding:0px;
+	margin:0px;
+
+}
+#header{
+	padding:0;
+	margin: 0;
+	}
+
+#paragraphs{
+	font-family: 'Merienda One', cursive;
+
+}
