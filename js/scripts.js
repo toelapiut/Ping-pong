@@ -18,7 +18,7 @@ function pingPong(userInput){
 //user-interface
 $(document).ready(function() {
   $("form#pingPong").submit(function(event) {
-    $("#userOutput").empty();
+    $("#userOutput").empty();                 //It remove the child in and element but doesnt remove the class
     var userInput = parseInt($("input#number").val());
     var result = pingPong(userInput);
     result.forEach(function(output) {
