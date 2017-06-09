@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ping Pong Number and Word game
 Author: [Apiut Toel](toelapiut7@gmail.com)
 ## Description
@@ -27,3 +28,6 @@ A web application that takes a number from a user and returns a range of numbers
 Make sure you have git installed. On the terminal, navigate to your workspace directory and run
 ## Contributing
 pull requests are encouraged
+=======
+# Ping-pong
+>>>>>>> 37f94f85332a0573cf1fb95ad826f282f8958b1d
